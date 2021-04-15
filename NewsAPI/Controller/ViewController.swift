@@ -220,6 +220,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
            mainTableView.delegate = self
            mainTableView.dataSource = self
            //self.mainTableView.backgroundColor = UIColor.white
+        mainTableView.isPagingEnabled = true
         mainTableView.showsVerticalScrollIndicator = false
         mainTableView.separatorColor = UIColor.clear
         mainView1.addSubview(self.mainTableView)
@@ -296,7 +297,7 @@ class ViewController: UIViewController,UITableViewDelegate,UITableViewDataSource
 
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 400
+        return mainTableView.frame.size.height
     }
 
 

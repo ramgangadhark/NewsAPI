@@ -67,6 +67,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AD340125262808690084A923 /* CollectionView XIB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "CollectionView XIB";
+			sourceTree = "<group>";
+		};
+		AD340126262808720084A923 /* TableView XIB */ = {
+			isa = PBXGroup;
+			children = (
+				ADFD23132626F9610060C003 /* NewsTableViewCell.xib */,
+				ADFD23102626F9610060C003 /* PlaceHolderTableViewCell.xib */,
+			);
+			path = "TableView XIB";
+			sourceTree = "<group>";
+		};
 		ADFD22EE2626F7E90060C003 = {
 			isa = PBXGroup;
 			children = (
@@ -132,11 +148,11 @@
 		ADFD23372626FA790060C003 /* XIB */ = {
 			isa = PBXGroup;
 			children = (
+				AD340126262808720084A923 /* TableView XIB */,
+				AD340125262808690084A923 /* CollectionView XIB */,
 				ADFD23122626F9610060C003 /* CollectionViewCell.xib */,
 				ADFD23112626F9610060C003 /* NewsCollectionViewCell.xib */,
-				ADFD23132626F9610060C003 /* NewsTableViewCell.xib */,
 				ADFD230F2626F9600060C003 /* PlaceHolderCollectionViewCell.xib */,
-				ADFD23102626F9610060C003 /* PlaceHolderTableViewCell.xib */,
 			);
 			path = XIB;
 			sourceTree = "<group>";
